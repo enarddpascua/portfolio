@@ -21,8 +21,8 @@ function Header() {
     <section>
       <div className="left-container">
         <div className="name-wrapper">
-          <h1>Hi, my name</h1>
           <h1>
+            Hi, my name <br />
             is <span className="name">Rey</span>
           </h1>
         </div>
