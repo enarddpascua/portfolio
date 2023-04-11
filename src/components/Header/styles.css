@@ -1,0 +1,74 @@
+section{
+    display: flex;
+    flex-direction: row;
+}
+.left-container{
+    width: 50%;
+    margin-left: 2rem;
+}
+
+/* name-wrapper */
+h1{
+    font-family: 'roboto-thin';
+    letter-spacing: 5px;
+    font-size: 4rem;
+}
+
+.name{
+    font-family: 'roboto-bold';
+}
+
+/* skills-container */
+
+.skills-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+
+.right-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic-wrapper{
+    border-radius: 50%;
+}
+.profile-pic-wrapper > img{
+    height:auto;
+    width: auto;
+    border-radius: 50%;
+
+}
+
+@media (max-width:900px) {
+     h1{
+        font-family: 'roboto-thin';
+        letter-spacing: 5px;
+        font-size: xx-large;
+    }
+    .profile-pic-wrapper > img{
+        height: 20vh;
+    }
+}
+
+@media (max-width:600px) {
+    .profile-pic-wrapper > img{
+        height: 15vh;
+    }
+}
+
+@media (max-width:500px) {
+    .profile-pic-wrapper > img{
+        height: 10vh;
+    }
+    .right-container{
+        margin-right: 2rem;
+    }
+}
+

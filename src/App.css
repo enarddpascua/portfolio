@@ -1,0 +1,54 @@
+
+.App{
+  padding: 5rem;
+}
+
+.section-wrapper{
+  padding:10px 0;
+}
+
+@font-face {
+    font-family: "roboto-thin";   /*Can be any text*/
+    src: local("Roboto-Thin"),
+      url("./fonts/Roboto-Thin.ttf") format("truetype");
+  }
+
+@font-face {
+    font-family: "roboto-light";   /*Can be any text*/
+    src: local("Roboto-Light"),
+      url("./fonts/Roboto-Light.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "roboto-regular";   /*Can be any text*/
+    src: local("Roboto-Regular"),
+      url("./fonts/Roboto-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "roboto-medium";   /*Can be any text*/
+    src: local("Roboto-Medium"),
+      url("./fonts/Roboto-Medium.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "roboto-bold";   /*Can be any text*/
+    src: local("Roboto-Bold"),
+      url("./fonts/Roboto-Bold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "roboto-black";   /*Can be any text*/
+    src: local("Roboto-Black"),
+      url("./fonts/Roboto-Black.ttf") format("truetype");
+  }
+
+  @media (max-width:700px) {
+    .App{
+      padding:0;
+    }
+    
+    .section-wrapper{
+      padding:0;
+    }
+}

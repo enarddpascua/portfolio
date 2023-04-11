@@ -1,0 +1,96 @@
+/* SkillBoxWrapper */
+
+.box{
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: .5rem;
+}
+
+.text{
+    font-family:'roboto-regular';
+}
+
+
+/* Hamburger Icon */
+.hamb-icon-wrapper{
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    min-width:1.5rem;
+    max-width: 1.5rem;
+    min-height: 1.5rem;
+    max-height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rotate-plus{
+    transform: rotateZ(90deg);
+}
+
+.rotate-minus{
+    transform: rotateZ(-360deg);
+}
+
+.icon{
+    transition: .2s;
+}
+
+/* Numbering */
+
+.numbering-container{
+
+    color: white;
+    width:fit-content;
+    height: fit-content;
+    padding: .5rem;
+}
+
+.numbering-container >p {
+    font-family: "roboto";
+    font-size: large;
+}
+
+/* ImageContainer */
+
+.image-container{
+    border-radius: 5px; 
+}
+
+.image-container > img{
+    height: 25rem;
+}
+
+/* Title */
+.title{
+    font-family: "Roboto-thin";
+    font-weight: bolder;
+}
+
+/* Subtitle */
+.subtitle-text{
+    font-family: "Roboto-thin";
+    font-size: small;
+    font-weight: bold;
+}
+
+@media (max-width:930px) {
+    .image-container > img{
+        height: 20rem;
+    }
+}
+
+@media (max-width:855px) {
+    .image-container > img{
+        height: 15rem;
+    }
+}
+
+@media (max-width:715px) {
+    .image-container > img{
+        height: 12rem;
+    }
+}
